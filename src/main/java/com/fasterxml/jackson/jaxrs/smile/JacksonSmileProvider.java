@@ -583,7 +583,6 @@ public class JacksonSmileProvider
      * is Smile type or sub type.
      * Current implementation essentially checks to see whether
      * {@link MediaType#getSubtype} returns
-     * {@link SmileMediaTypes.APPLICATION_JACKSON_SMILE_TYPE#getSubtype}, 
      * "smile" or something ending with "+smile".
      */
     protected boolean isSmileType(MediaType mediaType)
