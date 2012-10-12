@@ -30,11 +30,9 @@ public class TestCanDeserialize extends JaxrsTestBase
     // [Issue#1]: exception for no content
     public void testCanSerializeEmpty() throws IOException
     {
-        /*
         JacksonSmileProvider prov = new JacksonSmileProvider();
         Bean b = (Bean) prov.readFrom(Object.class, Bean.class, new Annotation[0],
                 MediaType.APPLICATION_XML_TYPE, null, new ByteArrayInputStream(new byte[0]));
         assertNull(b);
-        */
     }
 }
