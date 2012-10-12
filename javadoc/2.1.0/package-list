@@ -1,0 +1,4 @@
+com.fasterxml.jackson.jaxrs.smile
+com.fasterxml.jackson.jaxrs.smile.annotation
+com.fasterxml.jackson.jaxrs.smile.cfg
+com.fasterxml.jackson.jaxrs.smile.util
