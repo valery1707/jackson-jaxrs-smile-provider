@@ -428,6 +428,11 @@ public class JacksonSmileProvider
         }
         ObjectReader reader = endpoint.getReader();
         JsonParser jp = reader.getFactory().createJsonParser(entityStream);
+        // [Issue#1]: should return null for empty/missing payload
+        // (note! Requires smile module v2.1.1)
+        if (jp.nextToken() == null) {
+            return null;
+        }
         return reader.withType(genericType).readValue(jp);
     }
 
