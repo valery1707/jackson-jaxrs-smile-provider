@@ -25,7 +25,7 @@
   </parent>
   <groupId>com.fasterxml.jackson.jaxrs</groupId>
   <artifactId>jackson-jaxrs-smile-provider</artifactId>
-  <version>2.1.4</version>
+  <version>2.1.5-SNAPSHOT</version>
   <name>Jackson-JAXRS-Smile_Provider</name>
   <description>Functionality to handle Smile (binary JSON) format input/output for JAX-RS implementations (like Jersey and RESTeasy) using standard Jackson data binding.
   </description>
@@ -34,7 +34,7 @@
     <connection>scm:git:git@github.com:FasterXML/jackson-jaxrs-smile-provider.git</connection>
     <developerConnection>scm:git:git@github.com:FasterXML/jackson-jaxrs-smile-provider.git</developerConnection>
     <url>http://github.com/FasterXML/jackson-jaxrs-smile-provider</url>
-    <tag>jackson-jaxrs-smile-provider-2.1.4</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <properties>
