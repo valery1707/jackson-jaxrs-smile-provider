@@ -1,5 +1,5 @@
 Project: jackson-jaxrs-smile-provider
-Version: 2.1.5 (xx-Mar-2013)
+Version: 2.1.5 (02-Mar-2013)
 
 * [JACKSON-891]: AnnotationBundleKey caching was not working
  (reported by Chris H)
