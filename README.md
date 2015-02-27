@@ -4,9 +4,9 @@ This Jackson extension adds SMILE reading/writing support (mime type "applicatio
 This is done by class `JacksonSmileProvider` implementing `javax.ws.rs.ext.MessageBodyReader` and `javax.ws.rs.ext.MessageBodyWriter` that JAX-RS defines for pluggable support for data formats. 
 `JacksonSmileProvider` (and `JacksonJaxbSmileProvider`) can then be registered with JAX-RS container to make Jackson the standard SMILE reader/writer provider.
 
-[![Build Status](https://fasterxml.ci.cloudbees.com/job/jackson-jaxrs-smile-provider-master/badge/icon)](https://fasterxml.ci.cloudbees.com/job/jackson-jaxrs-smile-provider-master/)
-
 ## Status
+
+[![Build Status](https://travis-ci.org/FasterXML/jackson-jaxrs-smile-provider.svg)](https://travis-ci.org/FasterXML/jackson-jaxrs-smile-provider)
 
 Module is fully usable since Jackson 2.1.
 
