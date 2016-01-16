@@ -7,6 +7,8 @@ This is done by class `JacksonSmileProvider` implementing `javax.ws.rs.ext.Messa
 ## Status
 
 [![Build Status](https://travis-ci.org/FasterXML/jackson-jaxrs-smile-provider.svg)](https://travis-ci.org/FasterXML/jackson-jaxrs-smile-provider)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.fasterxml.jackson.jaxrs/jackson-jaxrs-smile-provider/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.fasterxml.jackson.jaxrs/jackson-jaxrs-smile-provider/)
+[![Javadoc](https://javadoc-emblem.rhcloud.com/doc/com.fasterxml.jackson.jaxrs/jackson-jaxrs-smile-provider/badge.svg)](http://www.javadoc.io/doc/com.fasterxml.jackson.jaxrs/jackson-jaxrs-smile-provider)
 
 Module is fully usable since Jackson 2.1.
 
